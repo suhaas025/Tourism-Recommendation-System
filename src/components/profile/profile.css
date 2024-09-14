@@ -1,0 +1,48 @@
+.main{
+    width: 100%;
+    min-height: 100%;
+    padding-bottom: 80px;
+    background-image: linear-gradient(rgb(10, 93, 164), rgb(244, 246, 246));
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    color:rgb(32, 35, 37);
+}
+
+.profilepic{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid;
+  
+}
+
+.inp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 200px;
+}
+
+.ok{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px; 
+  padding-bottom: 10px; 
+  padding-left: 20px;
+  padding-right: 20px;  
+  background-color: rgba(13, 41, 113, 0.668);
+}
+
+.sub{
+    padding: 40px;
+}

@@ -1,0 +1,45 @@
+/* PlaceCard.css */
+.place-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+    width: calc(33.33% - 80px); /* Adjusted width for three cards in a row */
+    display: inline-block;
+    vertical-align: top;
+    overflow: hidden; /* Hide any overflow from the content container */
+    transition: transform 0.5s ease;
+    background: white;
+}
+
+.place-card:hover{
+    transform: scale(1.01);
+    box-shadow: 10px 10px 10px rgb(150, 143, 143);
+}
+  
+  .place-card img {
+    width: 100%; /* Ensure the image takes up the full width of the container */
+    height: 200px; /* Maintain the aspect ratio of the image */
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .place-card-content {
+    height: 150px; /* Adjust the height of the content container */
+    overflow-y: auto; /* Add vertical scrollbar for overflow */
+    background-color: #ccc;
+  }
+  
+  .place-card-content::-webkit-scrollbar {
+    width: 0; /* Set the width of the scrollbar to 0 */
+  }
+
+  .para{
+    text-align: center;
+    font-size: bigger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #ccc;
+  }
+
+  p{
+    padding: 10px;
+  }

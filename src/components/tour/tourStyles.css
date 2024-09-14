@@ -1,0 +1,80 @@
+/* tourStyles.css */
+.main{
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  padding: 40px;
+  background-image: url("background.jpg");
+  color: #000000;
+}
+
+.head{
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+
+.choice{
+  padding-left: 200px;
+}
+
+.cont1{
+  background-color: rgba(255, 255, 255, 0.512);
+  border-radius: 1em;
+  padding: 20px;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    width: 33%;
+  }
+  
+  input[type="radio"], select {
+    margin-right: 10px;
+  }
+  
+  input[type="text"], select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .button1 {
+    padding: 10px 20px;
+    background-color: #28768b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+  }
+  
+  .button1:hover {
+    background-color: #0056b3;
+  }
+  
+  .loc{
+    width: 85% !important;
+    display: inline-block !important;
+  }
+  .button2{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28768b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px;
+  }
+
+  .content{
+    padding-left: 120px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+  }
